@@ -285,9 +285,9 @@ def get_most_likely_row(tokens, mask, logits):
 
 # -----------------------------------------------------------------------------
 # simple launch:
-# python train_gpt2.py
+# python train_efficientgpt2.py
 # DDP launch for e.g. 8 GPUs:
-# torchrun --standalone --nproc_per_node=8 train_gpt2.py
+# torchrun --standalone --nproc_per_node=8 train_efficientgpt2.py
 
 # run the training loop
 from torch.distributed import init_process_group, destroy_process_group
