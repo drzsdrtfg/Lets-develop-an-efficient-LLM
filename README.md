@@ -30,7 +30,7 @@ pip install datasets tiktoken transformers
 Load the dataset and divide it into shards:
 
 ```bash
-python finweb.py
+python fineweb.py
 ```
 
 ## 5. Train the Model
